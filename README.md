@@ -1,6 +1,7 @@
 TDDBookStore
 ============
 Description:
+
 To try and encourage more sales of the 5 different Harry
 Potter books they sell, a bookshop has decided to offer
 discounts of multiple-book purchases.
@@ -34,3 +35,16 @@ For example, how much does this basket of books cost?
 1 copy of the fifth book
 
 Answer: 51.60 EUR
+
+第一问：
+
+仅支持每种书要么买一本，要么一本都不买，求总价。
+样例输入：[1,0,0,0,0]
+样例输出：8
+
+第二问：
+
+支持每种书买任意本，求总价。
+样例输入：[2,2,2,1,1]
+样例输出：51.60
+
