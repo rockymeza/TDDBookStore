@@ -36,15 +36,34 @@ For example, how much does this basket of books cost?
 
 Answer: 51.60 EUR
 
-第一问：
+第一问 / Question 1
+-------------------
 
 仅支持每种书要么买一本，要么一本都不买，求总价。
-样例输入：[1,0,0,0,0]
-样例输出：8
 
-第二问：
+样例输入： ``[1, 0, 0, 0, 0]``
+
+样例输出： ``8``
+
+The system only needs to support selling each book once. You can either sell it
+or not sell it. Please return the total price.
+
+Sample input: ``[1, 0, 0, 0, 0]``
+
+Sample output: ``8``
+
+第二问 / Question 2
+-------------------
 
 支持每种书买任意本，求总价。
-样例输入：[2,2,2,1,1]
-样例输出：51.60
 
+样例输入： ``[2, 2, 2, 1, 1]``
+
+样例输出： ``51.60``
+
+The system supports selling any number of each book. Please return the total
+price.
+
+Sample input: ``[2, 2, 2, 1, 1]``
+
+Sample output: ``51.60``
